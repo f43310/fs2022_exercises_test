@@ -10,9 +10,9 @@ const CountryData = ({ country }) => {
           <li key={language}>{language}</li>
         ))}
       </ul>
-      <img src={country.flags.png} alt={country.name.common + " " + "flag"} />
+      <img src={country.flags.png} alt={`${country.name.common} flag`} />
     </div>
-  );
-};
+  )
+}
 
-export default CountryData;
+export default CountryData
